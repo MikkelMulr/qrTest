@@ -1,3 +1,35 @@
+:root {
+  font-size: 10px;
+}
+
 .card {
   width: 100% !important;
+  margin: 0;
+}
+
+.name-label {
+  color: #FFF;
+  padding: 0.8rem;
+}
+
+.description {
+  padding-top: 0.5rem;
+}
+
+.description p {
+  padding: 0 0.8rem;
+}
+
+.primary {
+  height: 100vh;
+}
+
+.content-box {
+  color: #FFF;
+  position: absolute;
+  bottom: 0px;
+  background: rgb(87, 110, 84);
+  height: 200px;
+  width: 100%;
+  padding: 1.4rem;
 }
