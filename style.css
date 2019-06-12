@@ -40,7 +40,7 @@
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   color: #fffeea;
-  position: relative;
+  position: absolute;
   bottom: 0;
   background: #495a2b;
   height: 20rem;
