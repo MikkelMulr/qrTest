@@ -2,9 +2,6 @@
   font-size: 10px;
 }
 
-.ui {
-  /* margin: 0 !important; */
-}
 
 .card {
   width: 100% !important;
@@ -31,26 +28,28 @@
 
 .flower-image {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-image: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gardendesign.com%2Fpictures%2Fimages%2F900x705Max%2Fsite_3%2Fpink-hawaiian-coral-herbaceous-peony-garden-design_11834.jpg&f=1');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1000;
 }
 
 .content-box {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   color: #fffeea;
-  position: absolute;
+  position: relative;
   bottom: 0;
   background: #495a2b;
   height: 20rem;
-  width: 100%;
+  width: 100vw;
   padding: 1.4rem;
   margin-bottom: 0;
 
   transition: 0.2s ease-in;
+  z-index: 20000;
 }
 
 .box-scaler {
